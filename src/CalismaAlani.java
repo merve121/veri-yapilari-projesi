@@ -1,9 +1,10 @@
 public class CalismaAlani{
   private int alanId;
-  private String alanAdi
+  private String alanAdi;
 
   public CalismaAlani(int alanId, String alanAdi) {
     this.alanId = alanId;
+    this.alanAdi = alanAdi;
   }
   public int getAlanId() {
     return alanId;
